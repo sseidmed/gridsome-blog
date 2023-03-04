@@ -1,0 +1,17 @@
+{
+  "name": "gridsome-blog",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "gridsome": "^0.7.0"
+  },
+  "overrides": {
+    "gridsome": {
+      "sharp": "0.29.3"
+    }
+  }
+}
